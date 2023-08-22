@@ -33,14 +33,12 @@ Para adicionar um novo produto, envie um objeto JSON contendo as informações d
 Exemplo de Corpo da Requisição:
 
 <pre>
-```json
 { <br>
     "name": "Nome do Produto", <br>
     "description": "Descrição do Produto (opcional)", <br>
     "price": 99.99, <br>
     "priceDate": "2023-08-21" <br>
 } <br>
-```
 </pre>
 
 4. Atualizar Informações de um Produto <br>
@@ -53,12 +51,10 @@ Substitua :index pelo índice numérico do produto que deseja atualizar. Você p
 Exemplo de Corpo da Requisição (atualizando preço):
 
 <pre>
-```json
 { <br>
     "fieldToUpdate": "price", <br>
     "newValue": 129.99 <br>
 } <br>
-```
 </pre>
 
 Se desejar substituir todo o objeto, basta enviar um novo objeto JSON contendo todas as informações do produto.
@@ -74,14 +70,12 @@ Substitua :index pelo índice numérico do produto que deseja excluir. Esta oper
 A API responde com objetos JSON contendo informações dos produtos. Por exemplo:
 
 <pre>
-```json
 { <br>
     "name": "Nome do Produto", <br>
     "description": "Descrição do Produto (opcional)", <br>
     "price": 99.99, <br>
     "priceDate": "2023-08-21" <br>
 } <br>
-```
 </pre>
 
 ## Erros <br>
